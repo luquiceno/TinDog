@@ -1,0 +1,106 @@
+html body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*esto es para quitar la barra de scroll*/
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 550px;
+    /*width: 35em;*/
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 2px rgb(207, 205, 205);
+    border-radius: 10px;
+}
+
+#card .dog-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#card {
+    position: relative;
+    padding: 0 7px;
+}
+
+.dog-info {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F8F8F8;
+    bottom: 10px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.dog-bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #F8F8F8;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.profile {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#reject-button, #accept-button {
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;   /*esto es para mostrar la manito en los botones*/
+}
+
+#reject-button {
+    margin-left: 170px;
+    margin-right: 30px;
+}
+
+#accept-button {
+    margin-right: 170px;
+    margin-left: 30px;
+}
+
+#reject-button:hover,
+#reject-button:focus {
+    background: #FFE7EF;
+}
+
+#accept-button:hover,
+#accept-button:focus {
+    background: #DBFFF4;
+}
+
+#messageLike, #messageNope {
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 55px;
+    transform: rotate(-30deg);
+}
+
+.actions {
+    padding: 15px 0;
+}
+
+
+    
+
