@@ -6,7 +6,7 @@ class Dog {
         Object.assign(this, data)
     }
 
-    // Establecer el estado
+    // Set the status
     setMatchStatus(bool) {
         this.hasBeenLiked = bool;
         this.hasBeenSwiped = true;
