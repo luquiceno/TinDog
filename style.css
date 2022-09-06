@@ -1,7 +1,11 @@
+/*overflow: hidden  -> this remove the scroll bar
+  cursor: pointer   -> shows the cursor as a hand 
+*/
+
 html body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /*esto es para quitar la barra de scroll*/
+    overflow: hidden;
 }
 
 body {
@@ -64,7 +68,7 @@ h4 {
     box-shadow: 0px 10px 20px #E9E9EA;
     border-radius: 50%;
     border: none;
-    cursor: pointer;   /*esto es para mostrar la manito en los botones*/
+    cursor: pointer;   
 }
 
 #reject-button {
